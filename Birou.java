@@ -11,5 +11,9 @@ public class Birou {
 		this.sertar2 = sertar2;
 	}
 	
-	
+	public void tipareste() {
+		System.out.println("Birou " + l + " " + L + " " + H);
+		sertar1.tipareste();
+		sertar2.tipareste();
+	}
 }
