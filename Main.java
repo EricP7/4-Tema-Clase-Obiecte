@@ -5,9 +5,10 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Sertar sertar1 = new Sertar(30, 50, 40);
+		Sertar sertar2 = new Sertar(35, 60, 30);
+		Birou birou = new Birou(70, 110, 80, sertar1, sertar2);
 		
-		System.out.println(sertar1.tipareste());
-
+		birou.tipareste();
 	}
 
 }
