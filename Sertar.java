@@ -8,7 +8,7 @@ public class Sertar {
 		this.H = H;
 	}
 	
-	public String tipareste() {
-		return "Sertar " + l + " " + L + " " + H;
+	public void tipareste() {
+		System.out.println("Sertar " + l + " " + L + " " + H);
 	}
 }
