@@ -9,6 +9,6 @@ public class Sertar {
 	}
 	
 	public String tipareste() {
-		return "Sertar" + l + L + H;
+		return "Sertar " + l + " " + L + " " + H;
 	}
 }
